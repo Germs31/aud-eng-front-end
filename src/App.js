@@ -9,11 +9,11 @@ function App() {
   return (
     <div className="App">
       <Grid container spacing={3}>
-        <Grid item m={6}>
+        <Grid item md={6}>
           <h1>Aud-Eng</h1>
           <h3>Find your solution</h3>
         </Grid>
-        <Grid className="login-form" item m={6}>
+        <Grid className="login-form" item md={6}>
           <h4>Login</h4>
           <form>
             <TextField variant="outlined"
