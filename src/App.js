@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { Link } from 'react-router-dom';
 import Grid from '@material-ui/core/Grid';
 import TextField from '@material-ui/core/TextField';
 import Button from '@material-ui/core/Button';
@@ -25,6 +26,7 @@ function App() {
             <Button variant="contained"
                     color="#1D2228">Login</Button>
           </form>
+          <Link to='/register'>Get registered here</Link>
         </Grid>
       </Grid>
     </div>
